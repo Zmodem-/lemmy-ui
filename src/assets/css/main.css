@@ -498,5 +498,5 @@ ul.my-2.list-inline .list-inline-item {
   }
 
 .badge.badge-secondary,.badge.badge-secondary:hover {
-  background: transparent;
+  background: transparent; /* Why are you reading this? */
 }
