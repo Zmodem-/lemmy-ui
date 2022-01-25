@@ -374,3 +374,129 @@ br.big {
 .slight-radius {
   border-radius: 4px;
 }
+
+
+/* Darkly Theme Changes
+   New Addendum:    Amethyst
+   Author:          Zmodem
+   Date:            2022 01 19 (January 19, 2022)
+   Version:         v0.63.2022.01.19
+*/
+::selection {
+  background-color: #610c97;
+  color: #d8c0d8;
+}
+
+body {
+  background-color: #110025;
+  color: #938fa6;
+}
+
+a.text-body:hover {
+  color: #e2ccfc;
+  text-decoration: none;
+}
+a.text-body {
+  color: #7c6f8c;
+}
+
+
+button.btn-link:hover,.upvote:hover {
+  color: #610c97;
+}
+
+a.btn-secondary,a.btn-secondary:hover,
+a.btn-secondary:active,a.btn-secondary:focus {
+  background-color: transparent;
+  border: 1px solid #271a37;
+  color: rgba(255,255,255,.7);
+}
+
+  a.btn-secondary:not(.disabled):hover {
+    border: 1px solid #610c97;
+    color: #fff;
+  }
+
+.btn.btn-outline-secondary:not(:disabled):not(.disabled) {
+  border: 1px solid #271a37;
+}
+
+  .btn-outline-secondary:not(:disabled):not(.disabled).active,
+  .btn-outline-secondary:not(:disabled):not(.disabled):active,
+  .show>.btn-outline-secondary.dropdown-toggle,
+  .btn-outline-secondary.active:not(:disabled):not(.disabled),
+  .btn-outline-secondary:not(.disabled):hover,
+  .custom-select.mb-2,.custom-select.mb-2 option {
+        color: #fff;
+        cursor: pointer;
+        background-color: rgba(255,255,255,.06) !important;
+        border: 1px solid #610c97 !important;
+      }
+
+        /* Dropdown Box Overrides */
+        .custom-select.mb-2 option {
+          background-color: #2f2f2f !important;
+        }
+
+
+.text-info,h1,h2,h3,h4,h5 {
+  color: #c5c089;
+}
+
+  /* Sidebar 'communities' link default color override */
+  aside h5 a.text-body {
+    border: 1px solid rgba(255,255,255,.09);
+    border-radius: 4px;
+    color: #00bc8c !important;
+    padding: 6px;
+    transition: border-color .2s, color .2s;
+  }
+
+    /* Hover */
+    aside h5 a.text-body:hover {
+      border-color: rgba(255,255,255,.2);
+      color: #007053 !important;
+    }
+
+.card {
+  color: rgba(255,255,255,.7);
+}
+
+  .card .list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card .list-inline-item {
+    align-items: center;
+    display: flex !important;
+    flex: 1;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 8px;
+    min-width: 40%;
+  }
+
+  .card .list-inline-item picture + span {
+    font-size: 10px;
+    justify-self: end;
+  }
+
+ul.my-2.list-inline .list-inline-item {
+  background: transparent;
+  border: 1px solid #271a37;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  line-height: unset;
+  padding: 5px;
+}
+
+  ul.my-2.list-inline .list-inline-item:hover {
+    border: 1px solid #610c97;
+  }
+
+.badge.badge-secondary,.badge.badge-secondary:hover {
+  background: transparent; /* Why are you reading this? */
+}
