@@ -5,7 +5,7 @@
    New Addendum:    Amethyst
    Author:          Zmodem
    Date:            2022 01 29 (January 29, 2022)
-   Version:         v0.21.2022.01.29
+   Version:         v0.27.2022.01.29
 */
 ::selection {
     background-color: #BEBEBE;
@@ -111,6 +111,7 @@
   ul.my-2.list-inline .list-inline-item {
     background: transparent;
     border: 1px solid rgba(0,0,0,.2);
+    color: #969696;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -119,7 +120,7 @@
   }
   
     ul.my-2.list-inline .list-inline-item:hover {
-      border: 1px solid #blue;
+      border: 1px solid #262626;
     }
   
   .badge.badge-secondary,.badge.badge-secondary:hover {
